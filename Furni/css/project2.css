@@ -1,0 +1,510 @@
+/* Defaults */
+
+h1 {
+    color: white;
+    font-size: 35px;
+    margin: 0;
+}
+
+h6 {
+    color: #ffffff;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+p {
+    color: rgba(167, 167, 167, 0.87);
+    font-size: large;
+}
+
+h3 {
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    color: black;
+    padding-bottom: 10px;
+}
+
+h4 {
+    font-size: 15px;
+    color: black;
+    padding-bottom: 10px;
+}
+
+h5 {
+    font-size: 25px;
+    color: gray;
+    margin-bottom: 50px;
+    width: 50%;
+    align-items: center;
+}
+
+a {
+    color: #080808;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #666b6a;
+    transition: 0.2s;
+}
+
+section {
+    padding: 80px 0;
+}
+
+.colouring {
+    background-color: #f7f5f5;
+}
+
+.copyright a {
+    display: contents!important;
+    margin-bottom: 40px;
+}
+
+li {
+    color: rgba(167, 167, 167, 0.87);
+    font-size: large;
+    margin-bottom: 20px;
+}
+
+hr.solid {
+    border-top: 3px solid #bbb;
+}
+
+
+/* Header */
+
+.permenant {
+    position: fixed;
+    background-color: #2e493f;
+    z-index: 99999;
+    width: 100%;
+}
+
+header {
+    background-color: #3b5d50;
+}
+
+.navbar {
+    overflow: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navbar-brand img{
+    height: 100px;
+}
+.navbar a {
+    color: #ffffffaf;
+    text-decoration: none;
+    font-size: 15px;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar a:hover {
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+.navbar a.selected {
+    color: #ffffff;
+}
+
+.navbar li {
+margin: 0;
+}
+
+/* Banner1 */
+
+.banner1 {
+    background-color: #2e493f;
+}
+
+.banner1 .container {
+    position: relative;
+    height: 85vh;
+}
+
+.banner-caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(0%, -50%);
+    padding-top: 150px;
+}
+.banner-caption p{
+    color: #f8f8f8;
+}
+.banner p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: medium;
+}
+
+.ButtonStyle1 {
+    background-color: #FBDA0C;
+    padding: 10px 20px 10px 20px;
+    border-radius: 50px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.ButtonStyle1:hover {
+    background-color: rgb(231, 231, 1);
+}
+
+.ButtonStyle2 {
+    padding: 10px 20px 10px 20px;
+    border-radius: 50px;
+    color: white;
+    border-color: #aaaaaa;
+    font-size: 20px;
+}
+
+.ButtonStyle2:hover {
+    border-color: white;
+    background-color: #2e493f
+}
+
+.image-placer {
+    transform: translateX(100px) translateY(60px);
+    height: 500px;
+    width: 1000px;
+}
+
+
+/* Shopping Part */
+
+.ButtonStyle3 {
+    margin-top: 10px;
+    background-color: rgb(41, 40, 40);
+    color: white;
+    padding: 15px 30px 15px 30px;
+    border-radius: 50px;
+    font-size: large;
+}
+
+.ButtonStyle3:hover {
+    background-color: #080808;
+    transition: 0.2s;
+    border: 11;
+}
+
+.item-box {
+    display: inline-block;
+    position: relative;
+}
+
+.item-box a {
+    text-decoration: none;
+}
+
+.item-box::before {
+    content: "";
+    background-color: #dce5e4;
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+    height: 0%;
+    border-radius: 20px;
+    transition: 0.5s;
+    z-index: 0;
+}
+
+.item-box a {
+    position: relative;
+    z-index: 1;
+}
+
+.item-box:hover::before {
+    height: 75%;
+}
+
+.item-box .item-icon {
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    transition: 0.5s;
+    opacity: 0;
+    bottom: 35px;
+    position: relative;
+}
+
+.item-box:hover .item-icon {
+    opacity: 1;
+    bottom: 0px;
+}
+
+
+/* Why Choose Us? */
+
+.icon-shadow h3 {
+    background-color: #bdb8b8;
+    border-radius: 100px;
+    margin-right: 200px;
+}
+
+.banner-img4 {
+    float: right;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 500px;
+    border-radius: 50px;
+}
+
+.banner-img4 {
+    background-image: url(../img/background-img4.jpg);
+    align-items: center;
+}
+
+
+/* We help you make Modern Interior Designs */
+
+.banner-img1 {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 500px;
+    border-radius: 20px;
+}
+
+.banner-img1 {
+    background-image: url(../img/background-img5.jpg);
+    align-items: center;
+    transform: translateX(-20px);
+}
+
+.banner-img2 {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    width: 350px;
+    border-radius: 20px;
+}
+
+.banner-img2 {
+    background-image: url(../img/background-img6.jpg);
+    align-items: center;
+    transform: translateX(120px) translateY(270px);
+}
+
+.banner-img3 {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+}
+
+.banner-img3 {
+    background-image: url(../img/background-img7.jpg);
+    align-items: center;
+    transform: translateX(-80px);
+}
+
+
+/* Chair display */
+
+.ChairDisplay img {
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+}
+
+.ChairDisplay {
+    position: relative;
+    z-index: 0;
+}
+
+.ChairDisplay::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0px;
+    background: #ccc;
+    width: 100px;
+    height: 100px;
+    z-index: -1;
+    right: 0;
+    margin: 0 auto;
+    border-radius: 16px;
+}
+
+
+/* Testimony */
+
+.CaptionStyle p {
+    font-size: larger;
+    width: 80%;
+    text-align: center;
+    align-items: center;
+}
+
+.profile-photo {
+    width: 100px !important;
+    border-radius: 50px;
+    align-items: center;
+    margin: 0 auto;
+    margin: 20px auto;
+}
+
+.word-styling p {
+    font-size: 20px;
+    width: 70%;
+    margin: 40px auto;
+}
+
+
+/* Blog */
+
+.Blog-img {
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+.Blog-img:hover {
+    opacity: 70%;
+    transition: 0.3s;
+}
+
+.Blog-Styling h2 {
+    margin-left: 15px;
+}
+
+.Blog-Styling p {
+    margin-left: 15px;
+    color: black;
+}
+
+
+/* footer */
+
+footer {
+    padding: 100px 0 30px;
+}
+
+.sofa {
+    position: absolute;
+    right: 0;
+    top: -200px;
+}
+
+.sofa img {
+    width: 350px;
+}
+
+.footerstyle .container {
+    position: relative;
+}
+
+.footer-secondary {
+    margin-top: 100px;
+}
+
+footer .copyright {
+    margin-top: 100px;
+    border-top: 1px solid #edeaea;
+    padding-top: 30px;
+}
+
+footer .copyright p {
+    margin-bottom: 0px;
+}
+
+.footerstyle h4 {
+    color: #aaaaaa;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+}
+
+.footerstyle h3 {
+    color: #3b5d50;
+    size: 15px;
+    margin-bottom: 30px;
+}
+
+.footerstyle p {
+    margin-bottom: 30px;
+    font-size: large;
+}
+
+.footerstyle a {
+    display: block;
+    margin-top: 25px;
+    margin-left: 50px;
+    font-size: large;
+}
+
+.form-styling input {
+    padding: 15px 30px;
+    border-radius: 10px;
+    border: 1px solid #e7eeee;
+    box-shadow: none;
+    text-align: left;
+    margin-right: 15px;
+}
+
+.form-styling button {
+    padding: 15px 35px;
+    background-color: #3b5d50;
+    color: white;
+    border: 1px;
+    border-radius: 10px;
+    box-shadow: none;
+}
+
+.form-styling button:hover {
+    background-color: #2e493f;
+    transition: 0.3s;
+}
+
+.MediaButton {
+    color: #3b5d50;
+    background-color: #caf8e7;
+    border-radius: 50px;
+    padding: 10px 15px;
+    border: 0;
+    margin-right: 5px;
+}
+
+.MediaButton:hover {
+    background-color: #3b5d50;
+    color: #caf8e7;
+    transition: 0.2s;
+}
+
+.owl-carousel .owl-nav {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.owl-carousel .owl-nav button {
+    background-color: #3b5d50 !important;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    align-items: center;
+    margin: 15px;
+}
+
+.owl-carousel .owl-nav button span {
+    line-height: 0;
+    color: #ffffff;
+    font-size: 30px;
+    padding: 15px !important;
+}

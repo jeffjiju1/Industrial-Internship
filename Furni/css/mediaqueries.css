@@ -1,0 +1,404 @@
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    /* Defaults */
+    h3 {
+        font-size: 30px;
+        text-align: center !important;
+        line-height: normal;
+    }
+    h2 {
+        font-size: 20px;
+        text-align: center !important;
+        line-height: normal;
+    }
+    h4 {
+        font-size: 20px;
+        text-align: center !important;
+        line-height: normal;
+    }
+    a {
+        text-align: center;
+        line-height: normal;
+        display: block;
+    }
+    .division-border {
+        border: 1px solid #b5b9b8;
+    }
+    .nav-item {
+        text-align: center;
+    }
+    .nav-item a {
+        font-size: 20px;
+        border-bottom: 1px solid;
+        width: 100%;
+        border-color: #60927f;
+    }
+    .nav-item li {
+        color: #dce5e4;
+    }
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: none;
+    }
+    /* NavBar */
+    .navbar li {
+        display: inline-block;
+        text-decoration: none;
+        padding-left: 0;
+    }
+    .navbar-toggler-icon {
+        display: inline-block;
+        width: 1.5em;
+        height: 1.5em;
+        vertical-align: middle;
+        background-image: url(/img/navIcon.png);
+        background-size: 100%;
+        color: white;
+    }
+    /* Banner */
+    .udaip2 {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .banner-caption {
+        padding-top: 0;
+        padding: 16px;
+        transform: translate(0%, -35%);
+    }
+    .banner1 {
+        padding: 0;
+    }
+    .banner1 .container {
+        height: 86vh !important;
+    }
+    .banner-caption h6 {
+        font-size: 30px;
+        text-align: center;
+        line-height: normal;
+    }
+    .banner-caption p {
+        font-size: 16px;
+        text-align: center;
+        line-height: normal;
+        margin-bottom: 50px;
+    }
+    .banner-caption button {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+    .banner1 {
+        padding: 0;
+    }
+    section {
+        padding: 60px 0px !important;
+    }
+    .permenant {
+        border-bottom: 1px solid #6f817a;
+    }
+    /* shopping part */
+    p {
+        font-size: 16px;
+        text-align: center !important;
+        line-height: normal;
+    }
+    .ButtonStyle3 {
+        width: 100%;
+        margin-bottom: 32px;
+    }
+    .item-box {
+        width: 80%;
+    }
+    .item-box::before {
+        content: "";
+        background-color: #dce5e4;
+        position: absolute;
+        bottom: 15px;
+        width: 100%;
+        height: 75%;
+        border-radius: 20px;
+        z-index: 0;
+        left: 0;
+    }
+    .item-box .item-icon {
+        opacity: 1;
+        bottom: 0px;
+    }
+    /* Why Choose Us */
+    .WhyChooseUs h3 {
+        margin: 0 auto;
+        width: 15%;
+    }
+    .banner-img4 {
+        float: none;
+    }
+    /* WeHelp */
+    .WeHelp li {
+        text-align: center;
+    }
+    .banner-img4 {
+        height: 300px;
+        width: 300px;
+        margin: 0 auto;
+    }
+    /* Chair Details */
+    .ChairDisplay {
+        height: 100% !important;
+        margin: 16px auto;
+        position: relative;
+    }
+    .ChairDisplay img {
+        height: auto;
+        width: 200px !important;
+        border-radius: 20px;
+    }
+    .ChairDisplay::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0px;
+        background: #ccc;
+        width: 200px;
+        height: 200px;
+        z-index: -1;
+        right: 0;
+        margin: 0 auto;
+        border-radius: 16px;
+    }
+    .ReadMore a {
+        margin-bottom: 40px;
+    }
+    .Tablet-Display a {
+        justify-content: center !important;
+    }
+    /* Testimonial */
+    .word-styling p {
+        font-size: 16px;
+    }
+    /* Recent Blogs */
+    .Blog-Styling img {
+        margin: 0 auto;
+        margin: 16px 0;
+        transform: translateX(10px);
+    }
+    .Blog-Styling img {
+        margin: 0 auto;
+        margin: 16px 0;
+    }
+    /* footer */
+    .Media-Align {
+        text-align: center;
+    }
+    .form-adjustment {
+        padding: 10px;
+    }
+    .form-styling input {
+        width: 100% !important;
+        margin-bottom: 16px;
+        margin-right: 0px;
+    }
+    .form-styling button {
+        margin: 0 auto;
+        width: 100% !important;
+    }
+    .footerstyle a {
+        display: block;
+        margin-top: 25px;
+        margin-left: 0;
+        font-size: large;
+    }
+    .MediaButton {
+        align-items: center;
+    }
+    .copyright {
+        margin: 50px auto;
+    }
+    footer {
+        padding: 0px 0 30px;
+        top: 0;
+        position: relative;
+        margin-top: 100px;
+    }
+    .sofa {
+        position: relative;
+        right: 0;
+        top: 0;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (max-width: 1365px) {
+    h3 {
+        font-size: 30px;
+        text-align: center;
+        line-height: normal;
+    }
+    h2 {
+        font-size: 20px;
+        text-align: center;
+        line-height: normal;
+    }
+    h4 {
+        font-size: 20px;
+        text-align: center;
+        line-height: normal;
+    }
+    h6 {
+        font-size: 40px;
+        text-align: center;
+        line-height: normal;
+    }
+    p {
+        text-align: center;
+        line-height: normal;
+    }
+    .nopadding {
+        padding: 0px;
+    }
+    /* NavBar */
+    .nav-item {
+        text-align: left;
+        border-bottom: 1px solid;
+    }
+    .nav-item a {
+        justify-content: start;
+        font-size: 25px;
+        width: 100%;
+        border-color: #60927f;
+    }
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: none;
+    }
+    .navbar-toggler-icon {
+        display: inline-block;
+        width: 1.5em;
+        height: 1.5em;
+        vertical-align: middle;
+        background-image: url(/img/navIcon.png);
+        background-size: 100%;
+        color: white;
+    }
+    /* Banner Image */
+    .Tablet-Center {
+        text-align: center;
+    }
+    .ButtonStyle1 {
+        width: 70%;
+        margin: 16px auto;
+    }
+    .ButtonStyle2 {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .owl-carousel .owl-nav.disabled,
+    .owl-carousel .owl-dots.disabled {
+        display: block;
+    }
+    /* Item Box */
+    .ButtonStyle3 {
+        width: 70%;
+        margin: 54px auto 70px;
+    }
+    .abcd .ButtonStyle3 {
+        width: 70%;
+        margin: 54px auto 0px;
+    }
+    .item-box::before {
+        height: 75%;
+    }
+    .item-box .item-icon {
+        opacity: 1;
+        bottom: 0px;
+    }
+    /* banner */
+    .banner1 .container {
+        height: 100vh;
+    }
+    /* Why Choose Us */
+    .icon-shadow h3 {
+        background-color: #bdb8b8;
+        border-radius: 100px;
+        margin-right: 0px;
+        width: 16%;
+        margin: 0 auto;
+    }
+    .banner-img4 {
+        width: 100%;
+    }
+    /* <!-- We Help You Make Modern Interior Design --> */
+    .Tablet-Display a {
+        justify-content: left;
+        display: flex;
+    }
+    .Tablet-Display h3 {
+        text-align: left;
+    }
+    /* Chair Details */
+    .ChairDisplay img {
+        margin-bottom: 25px;
+    }
+    /* footer */
+    .sofa {
+        position: relative;
+        right: 0;
+        top: 00px;
+    }
+    .sofa img {
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        padding: 0px 0 30px;
+        top: 0;
+        position: relative;
+        margin-top: -100px;
+    }
+    .form-styling input {
+        width: 60%;
+        margin-bottom: 16px;
+        margin-right: 0px;
+    }
+    .form-styling button {
+        margin: 0 auto;
+        width: 60%;
+    }
+    .banner1 {
+        padding: 0;
+    }
+    .division-border {
+        border: 1px solid #b5b9b8;
+    }
+    .Tablet-Display h4 {
+        text-align: left;
+    }
+    .Tablet-Display p {
+        text-align: left;
+    }
+}
+
+@media only screen and (min-width: 1366px) {
+    .navbar-expand-lg .navbar-collapse {
+        flex-basis: auto;
+        display: flex !important;
+        justify-content: flex-end;
+    }
+    .navbar li {
+        display: inline-block;
+        text-decoration: none;
+        padding-left: 30px;
+    }
+    .navbar a:hover {
+        color: white;
+    }
+    /* Chair details */
+    .ChairDisplay img {
+        float: right;
+        height: 100px;
+        width: auto;
+    }
+}
